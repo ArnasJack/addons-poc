@@ -1,0 +1,29 @@
+{
+  "addons": [
+    {
+      "id": 1,
+      "title": "product 1",
+      "description": "Nulla occaecat ut consectetur occaecat dolore id voluptate proident amet velit qui incididunt tempor."
+    },
+    {
+      "id": 2,
+      "title": "product 2",
+      "description": "Voluptate et dolore commodo nostrud esse aliqua quis occaecat magna. Aute culpa nulla incididunt consequat. Do mollit nostrud ad exercitation est eiusmod aliquip aute"
+    },
+    {
+      "id": 3,
+      "title": "product 2",
+      "description": "Voluptate et dolore commodo nostrud esse aliqua quis occaecat magna. Aute culpa nulla incididunt consequat. Do mollit nostrud ad exercitation est eiusmod aliquip aute"
+    },
+    {
+      "id": 4,
+      "title": "product 2",
+      "description": "Voluptate et dolore commodo nostrud esse aliqua quis occaecat magna. Aute culpa nulla incididunt consequat. Do mollit nostrud ad exercitation est eiusmod aliquip aute"
+    }
+  ],
+  "basket": [
+    {
+      "id": 4
+    }
+  ]
+}

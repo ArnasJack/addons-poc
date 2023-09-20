@@ -38,12 +38,11 @@ const StyledLink = ({ href, name }) => (
   </Link>
 )
 
-export default function Cards() {
+export default function Baket({ basketList }) {
+
   return (
-    <FlexContainer>
-      <Card>
-        <StyledLink href="/about" name="About Page &rarr;" />
-      </Card>
-    </FlexContainer>
+    <div>
+      Basket {basketList.length}
+    </div>
   )
 }

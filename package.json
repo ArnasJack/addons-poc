@@ -3,9 +3,12 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "mocks": "json-server --watch db.json --port 3004"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.35.3",
+    "@tanstack/react-query-devtools": "^4.35.3",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
