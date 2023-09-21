@@ -6,8 +6,8 @@ const addonsGet = async () => {
   return res.json();
 };
 
-export const useAddons = () => {
-  return useQuery(['addons'], addonsGet);
+export const useAddons = (queryOptions?: any) => {
+  return useQuery(['addons'], addonsGet, queryOptions);
 }
 
 

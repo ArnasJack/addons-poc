@@ -6,8 +6,8 @@ export const basketGet = async () => {
   return res.json();
 };
 
-const useGetBasket = () => {
-  return useQuery(['basket'], basketGet );
+const useGetBasket = (queryOptions?: any) => {
+  return useQuery(['basket'], basketGet, queryOptions);
 }
 
 export default useGetBasket;
